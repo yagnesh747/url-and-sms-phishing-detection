@@ -7,6 +7,7 @@ from pydantic import BaseModel
 import uvicorn
 
 from database import init_db, get_db
+from database import init_db, get_db
 from crew_logic import AnalyzerCrew
 
 app = FastAPI(title="Phishing & Smishing Detection Framework")
